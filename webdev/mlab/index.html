@@ -1,1 +1,28 @@
-<h1>MLab</h1>
+<html>
+<head>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+<div id="app">
+	<h1>MLab</h1>
+	<ol>
+		<li v-for="database in databases">{{database}}</li>
+	</ol>
+</div>
+<script>
+	const mLabApiKey = 'q-oUpMR84FpC3maXQ79QtIB95hRrJv78'
+	const GET_ALL_DATABASES = 'https://api.mlab.com/api/1/databases?apiKey={API_KEY}'
+	// https://api.mlab.com/api/1/databases?apiKey=q-oUpMR84FpC3maXQ79QtIB95hRrJv78
+	new Vue({
+		el: "app",
+		data: {
+			databases: []
+		},
+		mounted: function () {
+			fetch('https://api.mlab.com/api/1/databases?apiKey=q-oUpMR84FpC3maXQ79QtIB95hRrJv78')
+			.then(databases => this.databases = databases)
+		}
+	})
+</script>
+</body>
+</html>
