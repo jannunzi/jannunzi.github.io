@@ -1,4 +1,4 @@
-<html>
+n<html>
 <head>
 	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
@@ -11,9 +11,8 @@
 </div>
 <script>
 	fetch('https://api.mlab.com/api/1/databases?apiKey=q-oUpMR84FpC3maXQ79QtIB95hRrJv78')
-			.then(databases => {
-				console.log(databases)
-			})
+			.then(response => response.json())
+			.then(databases => console.log(databases))
 	const mLabApiKey = 'q-oUpMR84FpC3maXQ79QtIB95hRrJv78'
 	const GET_ALL_DATABASES = 'https://api.mlab.com/api/1/databases?apiKey={API_KEY}'
 	// https://api.mlab.com/api/1/databases?apiKey=q-oUpMR84FpC3maXQ79QtIB95hRrJv78
@@ -24,6 +23,7 @@
 		},
 		mounted: function () {
 			fetch('https://api.mlab.com/api/1/databases?apiKey=q-oUpMR84FpC3maXQ79QtIB95hRrJv78')
+			.then(response => response.json())
 			.then(databases => this.databases = databases)
 		}
 	})
