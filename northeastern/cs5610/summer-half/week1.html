@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>WebDev - Week 1</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../../../css/shop-homepage.css" rel="stylesheet">
+  <link href="../../../css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Jose Annunziato</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../../../index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-3">
+
+        <h2 class="my-4">WebDev<br/>Summer 1</h2>
+        <div class="list-group">
+          <a target="_blank"
+             href="https://docs.google.com/document/d/19IV0_ox6bBMNdlXvE4huNe43hmwKJOxjhE3H66aXoDg/edit?usp=sharing"
+             class="list-group-item">
+            Syllabus
+          </a>
+          <a href="assignments.html" class="list-group-item">Assignments</a>
+          <a href="agenda.html" class="list-group-item">Agenda</a>
+          <a target="_blank"
+             href="https://piazza.com/class/jgw9xwydqy32qp"
+             class="list-group-item">
+            Piazza
+          </a>
+          <a href="week1.html"
+             class="list-group-item active">
+            Week 1 - HTML, CSS, Bootstrap, Responsive Design, JavaScript, jQuery, Browser Programming
+          </a>
+          <a href="#" class="list-group-item">Week 2</a>
+          <a href="#" class="list-group-item">Week 3</a>
+          <a href="#" class="list-group-item">Week 4</a>
+          <a href="#" class="list-group-item">Week 5</a>
+          <a href="#" class="list-group-item">Week 6</a>
+          <a href="#" class="list-group-item">Week 7</a>
+          <a href="#" class="list-group-item">Week 8</a>
+        </div>
+
+      </div>
+      <!-- /.col-lg-3 -->
+
+      <div class="col-lg-9 wbdv-padding-right-0px">
+
+        <br/>
+        <h1>Week 1</h1>
+
+        <br/>
+        <a id="intro"></a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link active" href="#intro">Intro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#basics">Basics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#responsive">Responsive</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#programming">Programming</a>
+          </li>
+        </ul>
+
+        <br/>
+        <h2>Lesson 1 - Introduction to the Course</h2>
+
+        <div class="list-group">
+          <a target="_blank" class="list-group-item"
+             href="https://docs.google.com/presentation/d/1yb_fQd5MhVuFczb5F5II0CoDkVJALFqxUnuwPAXiOAU/edit?usp=sharing">
+            Web Development
+          </a>
+          <a target="_blank" class="list-group-item"
+             href="https://docs.google.com/document/d/19NMljBdH06Kpp6IFyvSqNj4p7l5rxo8Ea6FBC-QB3QQ/edit?usp=sharing">
+            Assignment 1
+          </a>
+          <a target="_blank"
+             href="https://docs.google.com/document/d/1De-UdZ8LpJt6tftlCsYcZz-BCyh8Nljz7KYO5DY00_8/edit?usp=sharing"
+             class="list-group-item">
+            Project
+          </a>
+        </div>
+
+        <br/>
+        <a id="basics"></a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">Intro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#basics">Basics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#responsive">Responsive</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#programming">Programming</a>
+          </li>
+        </ul>
+        <br/>
+        <h2>Lesson 2 - Basic Web concepts</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <a target="_blank"
+               href="https://docs.google.com/presentation/d/1jkBylv9qA-ULEJmlx9Asb378dOdn2xj2tU5kDBksXJU/edit?usp=sharing">
+              Setting up a development environment
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a target="_blank"
+               href="https://docs.google.com/presentation/d/1Dt3CqNEFOBuJYa5MvslzINEYphKWjkR6fydm_b62X_0/edit?usp=sharing">
+              Spring & Heroku
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a target="_blank"
+               href="https://docs.google.com/presentation/d/1cAXvkeaHQiQiNdYwppygUOPa8PUMt_L7RED8JP4K6dg/edit?usp=sharing">
+              HTML (Hypertext Markup Language)
+            </a>
+            <br/>
+            <iframe style="margin-top:15px;margin-right:15px;float:left"
+                    src="https://docs.google.com/presentation/d/e/2PACX-1vRgnSidwGbKuRJ_463BwVeSt2K889VbgBt_AHzaiBOLjGKdaxTCCsR7QwGIIJbKgmYT5sTfKXqK8xK7/embed?start=false&loop=false&delayms=3000"
+                    frameborder="0"
+                    width="250"
+                    height="186"
+                    allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+            <iframe style="margin-top:15px;margin-right:15px;float:left"
+                    width="250"
+                    height="186"
+                    src="https://www.youtube.com/embed/UzFMGI8N5hs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe style="margin-top:15px;margin-right:15px;float:left"
+                    width="250"
+                    height="186"
+                    src="https://www.youtube.com/embed/hsiUjYDnp5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe style="margin-top:15px;margin-right:15px;float:left"
+                    width="250"
+                    height="186"
+                    src="https://www.youtube.com/embed/i54m2pTKiwM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe style="margin-top:15px;margin-right:15px;float:left"
+                    width="250"
+                    height="186"
+                    src="https://www.youtube.com/embed/GriR7STjqAA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe style="margin-top:15px;margin-right:15px;float:left"
+                    width="250"
+                    height="186"
+                    src="https://www.youtube.com/embed/BDcPBCI2iUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe style="margin-top:15px;margin-right:15px;float:left"
+                    width="250"
+                    height="186"
+                    src="https://www.youtube.com/embed/gAJdrpt9psU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          </li>
+          <li class="list-group-item">
+            <a target="_blank"
+               href="https://docs.google.com/presentation/d/1lTNFwfAa4Zx-3CR-qb0DqewQNTuAffs3m3nmThs2v1Y/edit?usp=sharing">
+              CSS (Cascading Style Sheets)
+            </a>
+          </li>
+        </ul>
+
+        <br/>
+        <a id="responsive"></a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">Intro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#basics">Basics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#responsive">Responsive</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#programming">Programming</a>
+          </li>
+        </ul>
+        <br/>
+        <h2>Lesson 3 - Responsive Web Pages</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <a target="_blank"
+               href="https://docs.google.com/presentation/d/1Vjc1ePHtNMKPWqQUSqBVK-1Jd_5ByngOj6jTUcNXY-c/edit?usp=sharing">
+              Bootstrap
+
+              <br/>
+              <iframe style="margin-top:15px;margin-right:15px;float:left"
+                      width="250"
+                      height="186"
+                      src="https://docs.google.com/presentation/d/e/2PACX-1vTbGCglBcz6PGiRsf-FPLwBKitDqKjHlMM78k-PJmM34tlZlgMgLcsvKXxOtKcDffK_73LqQct8y_e8/embed?start=false&loop=false&delayms=3000"
+                      frameborder="0"
+                      allowfullscreen="true"
+                      mozallowfullscreen="true"
+                      webkitallowfullscreen="true"></iframe>
+
+              <iframe style="margin-top:15px;margin-right:15px;float:left"
+                      width="250"
+                      height="186"
+                      src="https://www.youtube.com/embed/dLoirkWWTzM"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+
+              <iframe style="margin-top:15px;margin-right:15px;float:left"
+                      width="250"
+                      height="186"
+                      src="https://www.youtube.com/embed/hAYwB1g88KQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              <iframe style="margin-top:15px;margin-right:15px;float:left"
+                      width="250"
+                      height="186"
+                      src="https://www.youtube.com/embed/SzDqXLifc_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a target="_blank"
+               href="https://docs.google.com/presentation/d/1VGPdCSSM3W3nIq3G61f88Z_ZaqJk-DL9lFQCahbqH-4/edit?usp=sharing">
+              Bootstrap Navbar
+              <br/>
+
+              <iframe style="margin-top:15px;margin-right:15px;float:left"
+                      width="250"
+                      height="186"
+                      src="https://www.youtube.com/embed/0Z_lzGh8lEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              <iframe style="margin-top:15px;margin-right:15px;float:left"
+                      width="250"
+                      height="186"
+                      src="https://www.youtube.com/embed/Yt4_Iwi50Bk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a target="_blank"
+               href="https://docs.google.com/presentation/d/1H2DK-UDJd-iHOpgKGkqycXtNMhCQGv26TsXC8brMM_o/edit?usp=sharing">
+              Fontawesome
+              <br/>
+              <iframe style="margin-top:15px;margin-right:15px;float:left"
+                      width="250"
+                      height="186"
+                      src="https://docs.google.com/presentation/d/e/2PACX-1vQpTXpAOdwBLbOSA8KSs5RM_oe3Vn_Zqna9HAhugQxEOAGwLWUdwUNT_ZpEDbXLmamlPF8wH4v4kzUj/embed?start=false&loop=false&delayms=3000"
+                      frameborder="0"
+                      allowfullscreen="true"
+                      mozallowfullscreen="true"
+                      webkitallowfullscreen="true"></iframe>
+            </a>
+          </li>
+        </ul>
+
+        <br/>
+        <div>
+          <a id="programming"></a>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="#intro">Intro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#basics">Basics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#responsive">Responsive</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#programming">Programming</a>
+            </li>
+          </ul>
+          <br/>
+          <h2>Lesson 4 - Web Programming</h2>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <a target="_blank"
+                 href="https://docs.google.com/presentation/d/1Wy4AQNH5JtEqf9uV6bgb8bqAeKfHm6mvtGNTBhwEoGE/edit?usp=sharing">
+                JavaScript
+                <br/>
+                <iframe style="margin-top:15px;margin-right:15px;float:left"
+                        width="250"
+                        height="186"
+                        src="https://docs.google.com/presentation/d/e/2PACX-1vTxHQaXGORnP7I09Se3Z96Anr8huS6d6MUF26FqzCrU_fHeuyRkqmwlJF7HzhNVC0Vo_a6E6WKOEspm/embed?start=false&loop=false&delayms=3000"
+                        frameborder="0"
+                        allowfullscreen="true"
+                        mozallowfullscreen="true"
+                        webkitallowfullscreen="true"></iframe>
+
+                <iframe style="margin-top:15px;margin-right:15px;float:left"
+                        width="250"
+                        height="186"
+                        src="https://www.youtube.com/embed/3lGAVxFp5Os"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                <!--<iframe style="margin-top:15px;margin-right:15px;float:left"-->
+                        <!--width="250"-->
+                        <!--height="186"-->
+                        <!--src="https://www.youtube.com/embed/NNcIOSFTaPg"-->
+                        <!--frameborder="0"-->
+                        <!--allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"-->
+                        <!--allowfullscreen></iframe>-->
+
+                <!--<iframe style="margin-top:15px;margin-right:15px;float:left"-->
+                        <!--width="250"-->
+                        <!--height="186"-->
+                        <!--src="https://www.youtube.com/embed/NNcIOSFTaPg"-->
+                        <!--frameborder="0"-->
+                        <!--allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"-->
+                        <!--allowfullscreen></iframe>-->
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a target="_blank"
+                 href="https://docs.google.com/presentation/d/1F74EhSNVn6b3RFa-wfJ5cTG6zKG3fUzVciYDlG7A-58/edit?usp=sharing">
+                jQuery
+                <br/>
+                <iframe style="margin-top:15px;margin-right:15px;float:left"
+                        width="250"
+                        height="186"
+                        src="https://docs.google.com/presentation/d/e/2PACX-1vQyIyIj5Cp2na9imOYdycxM3k_0kgfDQcvm3El4uqvLca02-O8axemVOyzgyAIRXdAqA6UrkZnLzkXY/embed?start=false&loop=false&delayms=3000"
+                        frameborder="0"
+                        allowfullscreen="true"
+                        mozallowfullscreen="true"
+                        webkitallowfullscreen="true"></iframe>
+
+                <iframe style="margin-top:15px;margin-right:15px;float:left"
+                        width="250"
+                        height="186"
+                        src="https://www.youtube.com/embed/gPRGeuSrCCk"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe style="margin-top:15px;margin-right:15px;float:left"
+                        width="250"
+                        height="186"
+                        src="https://www.youtube.com/embed/zwvcJsBY0AM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a target="_blank"
+                 href="https://docs.google.com/presentation/d/1qjqRo_nemDGa_YwGniHDi1Uwv2FSOfenTcLS_D_6n74">
+                jQuery UI
+                <br/>
+                <iframe style="margin-top:15px;margin-right:15px;float:left"
+                        width="250"
+                        height="186"
+                        src="https://docs.google.com/presentation/d/e/2PACX-1vSfLo9P1kqhkGz8qPa-xPrnnFRwUhafj08ddA-tblp_zlHE_6XT8hrFJxoAYXmN6tALa03_LT05X_Ib/embed?start=false&loop=false&delayms=3000"
+                        frameborder="0"
+                        allowfullscreen="true"
+                        mozallowfullscreen="true"
+                        webkitallowfullscreen="true"></iframe>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+      </div>
+      <!-- /.col-lg-9 -->
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <!--footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    </div>
+  </footer-->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../../../vendor/jquery/jquery.min.js"></script>
+  <script src="../../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
