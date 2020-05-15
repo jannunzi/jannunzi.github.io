@@ -1,4 +1,11 @@
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="zoom2.css" rel="stylesheet"/>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script src="zoom2-data.js"></script>
+<script src="zoom2.js" type="text/babel"></script>
 
 <div class="container">
   
@@ -48,7 +55,7 @@
      <a href="https://northeastern.zoom.us/j/93634632704"
         class="btn btn-danger btn-block"
         target="_blank">
-        Join Zoom Faculty Meeting
+        Join Zoom Faculty Meeting (private)
         <br/>
         Tue, Fri @ 2:00pm - 2:30pm EST
      </a>      
@@ -56,12 +63,6 @@
   </div>
   
   <br/>
-  
-  <div class="list-group">
-    <a href="zoom.html" class="list-group-item list-group-item-action">
-      Zoom Lectures
-    </a>
-  </div>
 
-  
+    <div id="zoom2"></div>
 </div>

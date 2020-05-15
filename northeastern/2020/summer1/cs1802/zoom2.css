@@ -1,0 +1,12 @@
+.card.text-white.bg-primary {
+    margin-bottom: 15px;
+}
+i.fa {
+    margin-right: 5px;
+}
+
+.list-group-item.disabled, .list-group-item:disabled {
+    color: #aaaaaa;
+    pointer-events: none;
+    background-color: #fff;
+}
