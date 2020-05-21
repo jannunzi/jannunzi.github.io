@@ -28,11 +28,11 @@ const weeks = [
     "recitation": "https://docs.google.com/document/d/1X52sBrenx02Oqsiq41_gRNLLW2J-IunD-Lvx8nfZOA8/edit?usp=sharing",
     "section1": {
       "monday":    "",
-      "wednesday": ""
+      "wednesday": "https://northeastern.zoom.us/rec/share/-etUNq6srFlLG6OSr0vGdo46RMfLT6a813MarvsIzUeym7RkUVQSTbM9KvHnTtOM"
     },
     "section2": {
       "monday":    "",
-      "wednesday": ""
+      "wednesday": "https://northeastern.zoom.us/rec/share/ppJJC5jZ2kVIfq_0r2PtdaEvF5nseaa81iRNrPAKnhoTqNHGlMj1DbFmxsQ0lYd4"
     }
   },
   // week 4
@@ -40,11 +40,11 @@ const weeks = [
     "recitation": "https://docs.google.com/document/d/1pyAXzSrMfByE9iBsPIW5kQ8FYrlHgYNMWLNmVJBjnQc/edit?usp=sharing ",
     "section1": {
       "monday":    "",
-      "wednesday": "https://northeastern.zoom.us/rec/share/-etUNq6srFlLG6OSr0vGdo46RMfLT6a813MarvsIzUeym7RkUVQSTbM9KvHnTtOM"
+      "wednesday": ""
     },
     "section2": {
       "monday":    "",
-      "wednesday": "https://northeastern.zoom.us/rec/share/ppJJC5jZ2kVIfq_0r2PtdaEvF5nseaa81iRNrPAKnhoTqNHGlMj1DbFmxsQ0lYd4"
+      "wednesday": ""
     }
   },
   // week 5
