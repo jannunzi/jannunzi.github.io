@@ -32,7 +32,8 @@ class ZoomMeetings extends React.Component {
           urls.filter((url, index) => index % 4 === 0).map((url0, index0) =>
             <div key={url0} className="list-group">
               <a href="#" className="list-group-item list-group-item-primary">
-                Week {index0 + 1} - {(new Date(startDate.setDate(startDate.getDate() + index0 * 4))).toDateString()} - {(new Date(startDate.setDate(startDate.getDate() + 3))).toDateString()}
+                Week {index0 + 1} -
+                {/*{(new Date(startDate.setDate(startDate.getDate() + index0 * 4))).toDateString()} - {(new Date(startDate.setDate(startDate.getDate() + 3))).toDateString()}*/}
               </a>
               {
                 urls.slice(index0 * 4, (index0 * 4) + 4).map((url2, index2) => {
