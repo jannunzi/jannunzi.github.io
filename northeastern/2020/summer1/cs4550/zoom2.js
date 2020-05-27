@@ -14,7 +14,9 @@ const urls = [
   "https://northeastern.zoom.us/rec/share/2cUkFJburG9JYNLVsU32V5N-RKbLT6a8hCgY_fIIyka-w4OBUOKtRUmQW7wcORCa",
   "https://northeastern.zoom.us/rec/share/wu1bdZbo6GpIedaWr0vNdqQaE4b_aaa8hCJIrKUFzB28X1PwMC2flseBT5gW80M-",
 
-  "https://northeastern.zoom.us/rec/share/u9ZMC7LO0UlIbbeOyFGBSJNiFY38eaa8hyEZqfUImRslXPk_2A13FsXlR_HubnsT"
+  null,
+  "https://northeastern.zoom.us/rec/share/u9ZMC7LO0UlIbbeOyFGBSJNiFY38eaa8hyEZqfUImRslXPk_2A13FsXlR_HubnsT",
+  "https://northeastern.zoom.us/rec/share/vtFZMe3MzGVOTYnhyBvGVfF5Ad_rX6a81CAdrvUKzhm_DVxl37_wOJGqMmCQ108d"
 ]
 const weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday"]
 let startDate = new Date()
