@@ -51,12 +51,12 @@ const weeks = [
   {
     "recitation": "https://docs.google.com/document/d/1HYnBowIRzWL-xvJ3rvRT83u76HywH_zHr6pv3Wmb6Pk/edit?usp=sharing",
     "section1": {
-      "monday":    "",
-      "wednesday": ""
+      "monday":    "https://northeastern.zoom.us/rec/share/6MwqBuGuykBOTZHwwkDeY_N6Ravgeaa82ihPr_EOmU-2dx_1Qy7RQ9QO-rHL3cK3",
+      "wednesday": "https://northeastern.zoom.us/rec/share/7uAkD-qo0VtJZ53803jzaPYnLrz1eaa8hica-vcNykkNFRKPlcdqE3N5cUoJSDlO"
     },
     "section2": {
-      "monday":    "",
-      "wednesday": ""
+      "monday":    "https://northeastern.zoom.us/rec/share/6MwqBuGuykBOTZHwwkDeY_N6Ravgeaa82ihPr_EOmU-2dx_1Qy7RQ9QO-rHL3cK3",
+      "wednesday": "https://northeastern.zoom.us/rec/share/7twqNOjN1WpJE4WW82OEcJEBFJ3Eeaa8g3BLqaYMyExHJRwm-rENKb5VzhX1tZCh"
     }
   },
   // week 6
