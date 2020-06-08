@@ -1,5 +1,5 @@
 const weeks = [
-  // week 1
+  // week 1 - May 4, 6
   {
     "recitation": "https://docs.google.com/document/d/1pmIAj036wIHoDFtFgmL9jmbhYOBBG1Nui8EnCXO9C9U/edit",
     "section1": {
@@ -11,7 +11,7 @@ const weeks = [
       "wednesday": "https://northeastern.zoom.us/rec/play/65cuJu-vqT03HdKcuQSDC6N7W469JqOs0CUb-fEPzR68WncDOwH0YrIQYeGptDVldj1Qxa2PMN5pLg6T?continueMode=true&_x_zm_rtaid=zzveC8X3QcyvBq1A1yTOmQ.1589565385862.8dd09adcf0e42cd12765d6fec302cc29&_x_zm_rhtaid=724"
     }
   },
-  // week 2
+  // week 2 - May 11, 13
   {
     "recitation": "https://docs.google.com/document/d/1QUQOqcoB9ccSv_WCUy_rbUVEgHxPa76ukKAsJph11Ak/edit?usp=sharing",
     "section1": {
@@ -23,7 +23,7 @@ const weeks = [
       "wednesday": "https://northeastern.zoom.us/rec/share/ufd7LpTK90JLSIHrsFrgaqh4MIDbaaa8gHNM-qcJmUhp1R-Kjy5i7CrULLpIU9us"
     }
   },
-  // week 3
+  // week 3 - May 18, 20
   {
     "recitation": "https://docs.google.com/document/d/1X52sBrenx02Oqsiq41_gRNLLW2J-IunD-Lvx8nfZOA8/edit?usp=sharing",
     "section1": {
@@ -35,7 +35,7 @@ const weeks = [
       "wednesday": "https://northeastern.zoom.us/rec/share/ppJJC5jZ2kVIfq_0r2PtdaEvF5nseaa81iRNrPAKnhoTqNHGlMj1DbFmxsQ0lYd4"
     }
   },
-  // week 4
+  // week 4 - May 25, 27
   {
     "recitation": "https://docs.google.com/document/d/1pyAXzSrMfByE9iBsPIW5kQ8FYrlHgYNMWLNmVJBjnQc/edit?usp=sharing ",
     "section1": {
@@ -47,7 +47,7 @@ const weeks = [
       "wednesday": ""
     }
   },
-  // week 5
+  // week 5 - June 1, 3
   {
     "recitation": "https://docs.google.com/document/d/1HYnBowIRzWL-xvJ3rvRT83u76HywH_zHr6pv3Wmb6Pk/edit?usp=sharing",
     "section1": {
@@ -59,7 +59,7 @@ const weeks = [
       "wednesday": "https://northeastern.zoom.us/rec/share/7twqNOjN1WpJE4WW82OEcJEBFJ3Eeaa8g3BLqaYMyExHJRwm-rENKb5VzhX1tZCh"
     }
   },
-  // week 6
+  // week 6 - June 8, 10
   {
     "recitation": "https://docs.google.com/document/d/1T0Va1uds1EPjGAdfmpUnPmgRcNm0z_ROYEcG75bmI6o/edit?usp=sharing",
     "section1": {
