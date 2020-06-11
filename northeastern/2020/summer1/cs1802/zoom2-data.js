@@ -64,11 +64,11 @@ const weeks = [
     "recitation": "https://docs.google.com/document/d/1T0Va1uds1EPjGAdfmpUnPmgRcNm0z_ROYEcG75bmI6o/edit?usp=sharing",
     "section1": {
       "monday":    "",
-      "wednesday": ""
+      "wednesday": "https://northeastern.zoom.us/rec/share/2vZzf7Lt1nxIW4XI8nODBPIkLJzeX6a80SYa-KcOyCarDZxnrYmXFTjDhNlWDp4"
     },
     "section2": {
       "monday":    "",
-      "wednesday": ""
+      "wednesday": "https://northeastern.zoom.us/rec/share/5OFqfp7L-G9Le5XJ5x78SrwELr73T6a8gHVI8_QNmkYEhb0zMiBfWXMSaLbNRG6y"
     }
   }
 ]
