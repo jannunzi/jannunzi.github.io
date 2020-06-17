@@ -70,5 +70,17 @@ const weeks = [
       "monday":    "",
       "wednesday": "https://northeastern.zoom.us/rec/share/5OFqfp7L-G9Le5XJ5x78SrwELr73T6a8gHVI8_QNmkYEhb0zMiBfWXMSaLbNRG6y"
     }
+  },
+  // week 7
+  {
+    "recitation": "https://docs.google.com/document/d/1dNGDwnKHUSJmFmJEixqMbJaTi23OdDrJTOwVwcFHGr4/edit?usp=sharing",
+    "section1": {
+      "monday":    "",
+      "wednesday": "https://northeastern.zoom.us/rec/share/9_1-NJHZyGFJQNbmzUj4XoQZAIfneaa81CQX_vAOyRkcwyddHw2IKDgaWjFRZStq"
+    },
+    "section2": {
+      "monday":    "",
+      "wednesday": "https://northeastern.zoom.us/rec/share/9fRPfq_P_0dLbonRwR6FXL4wMaDqX6a80XcZ_vYEyE4hXOOOCVcN4QlsOapXhhE1"
+    }
   }
 ]
