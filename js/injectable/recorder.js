@@ -1,14 +1,14 @@
 (function () {
-    const main = () => {
-        $("body").on("click", record)
-    }
-    $(main);
-
     const record = (event) => {
         console.log(event)
         console.log(event.target)
         console.log(this)
     }
+
+    const main = () => {
+        $("body").on("click", record)
+    }
+    $(main);
 
     /**
      * Simulates low level click event
